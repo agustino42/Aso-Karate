@@ -1,109 +1,155 @@
-<a href="https://demo-nextjs-with-supabase.vercel.app/">
-  <img alt="Next.js and Supabase Starter Kit - the fastest way to build apps with Next.js and Supabase" src="https://demo-nextjs-with-supabase.vercel.app/opengraph-image.png">
-  <h1 align="center">Next.js and Supabase Starter Kit</h1>
-</a>
+<h1 align="center">🥋 Aso Karate 2</h1>
 
 <p align="center">
- The fastest way to build apps with Next.js and Supabase
+ Sistema de gestión  integral y Panel de Control para asociaciones de karate
 </p>
 
 <p align="center">
-  <a href="#features"><strong>Features</strong></a> ·
-  <a href="#demo"><strong>Demo</strong></a> ·
-  <a href="#deploy-to-vercel"><strong>Deploy to Vercel</strong></a> ·
-  <a href="#clone-and-run-locally"><strong>Clone and run locally</strong></a> ·
-  <a href="#feedback-and-issues"><strong>Feedback and issues</strong></a>
-  <a href="#more-supabase-examples"><strong>More Examples</strong></a>
+  <a href="#características"><strong>Características</strong></a> ·
+  <a href="#módulos"><strong>Módulos</strong></a> ·
+  <a href="#instalación"><strong>Instalación</strong></a> ·
+  <a href="#tecnologías"><strong>Tecnologías</strong></a> ·
+  <a href="#equipo"><strong>Equipo</strong></a>
 </p>
 <br/>
 
-## Features
+## Descripción
 
-- Works across the entire [Next.js](https://nextjs.org) stack
-  - App Router
-  - Pages Router
-  - Middleware
-  - Client
-  - Server
-  - It just works!
-- supabase-ssr. A package to configure Supabase Auth to use cookies
-- Password-based authentication block installed via the [Supabase UI Library](https://supabase.com/ui/docs/nextjs/password-based-auth)
-- Styling with [Tailwind CSS](https://tailwindcss.com)
-- Components with [shadcn/ui](https://ui.shadcn.com/)
-- Optional deployment with [Supabase Vercel Integration and Vercel deploy](#deploy-your-own)
-  - Environment variables automatically assigned to Vercel project
+**Aso Karate 2** es un sistema de gestión integral diseñado específicamente para asociaciones de karate. Esta aplicación web permite administrar de manera eficiente todos los aspectos relacionados con la organización de competencias, gestión de atletas, y administración general de la asociación.
 
-## Demo
+## Características
 
-You can view a fully working demo at [demo-nextjs-with-supabase.vercel.app](https://demo-nextjs-with-supabase.vercel.app/).
+- 🔐 **Autenticación segura** con roles diferenciados
+- 📱 **Interfaz responsive** adaptable a cualquier dispositivo
+- 🌙 **Modo claro/oscuro** para mejor experiencia de usuario
+- ⚡ **Rendimiento optimizado** con Next.js 14
+- 🔄 **Actualizaciones en tiempo real** con Supabase
+- 📊 **Reportes y estadísticas** detalladas
+- 🎯 **Sistema de categorización** automático por edad y peso
 
-## Deploy to Vercel
+## Módulos
 
-Vercel deployment will guide you through creating a Supabase account and project.
+### 🎛️ Panel de Control
+Dashboard principal con métricas clave, resumen de actividades recientes y accesos rápidos a las funciones más utilizadas.
 
-After installation of the Supabase integration, all relevant environment variables will be assigned to the project so the deployment is fully functioning.
+### 👥 Gestión de Jugadores
+- Registro completo de atletas
+- Historial de competencias
+- Seguimiento de progreso
+- Gestión de documentos
+- Categorización automática
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fvercel%2Fnext.js%2Ftree%2Fcanary%2Fexamples%2Fwith-supabase&project-name=nextjs-with-supabase&repository-name=nextjs-with-supabase&demo-title=nextjs-with-supabase&demo-description=This+starter+configures+Supabase+Auth+to+use+cookies%2C+making+the+user%27s+session+available+throughout+the+entire+Next.js+app+-+Client+Components%2C+Server+Components%2C+Route+Handlers%2C+Server+Actions+and+Middleware.&demo-url=https%3A%2F%2Fdemo-nextjs-with-supabase.vercel.app%2F&external-id=https%3A%2F%2Fgithub.com%2Fvercel%2Fnext.js%2Ftree%2Fcanary%2Fexamples%2Fwith-supabase&demo-image=https%3A%2F%2Fdemo-nextjs-with-supabase.vercel.app%2Fopengraph-image.png)
+### 👤 Gestión de Usuarios
+- Control de acceso por roles
+- Perfiles personalizables
+- Historial de actividades
+- Configuración de permisos
 
-The above will also clone the Starter kit to your GitHub, you can clone that locally and develop locally.
+### 🛡️ Gestión de Administradores
+- Panel de administración avanzado
+- Gestión de roles y permisos
+- Configuración del sistema
+- Auditoría de actividades
 
-If you wish to just develop locally and not deploy to Vercel, [follow the steps below](#clone-and-run-locally).
+### 🏆 Tabla de Puntuaciones
+- Sistema de ranking dinámico
+- Puntuaciones por categoría
+- Historial de competencias
+- Exportación de resultados
 
-## Clone and run locally
+### 📈 Estadísticas
+- Análisis de rendimiento
+- Gráficos interactivos
+- Reportes personalizados
+- Métricas de participación
 
-1. You'll first need a Supabase project which can be made [via the Supabase dashboard](https://database.new)
+### 🎲 Sorteos
+- Generación automática de llaves
+- Sorteos aleatorios justos
+- Gestión de brackets
+- Programación de combates
 
-2. Create a Next.js app using the Supabase Starter template npx command
+### ⚖️ Categorías por Edad y Peso
+- Clasificación automática
+- Configuración flexible de categorías
+- Validación de requisitos
+- Gestión de excepciones
 
+## Tecnologías
+
+- **Frontend**: Next.js 14, React, TypeScript
+- **Backend**: Supabase (PostgreSQL, Auth, Real-time)
+- **Estilos**: Tailwind CSS, shadcn/ui
+- **Autenticación**: Supabase Auth
+- **Base de datos**: PostgreSQL (Supabase)
+- **Despliegue**: Vercel
+
+## Instalación
+
+### Prerrequisitos
+- Node.js 18+ 
+- npm, yarn o pnpm
+- Cuenta de Supabase
+
+### Pasos de instalación
+
+1. **Clonar el repositorio**
    ```bash
-   npx create-next-app --example with-supabase with-supabase-app
+   git clone https://github.com/tu-usuario/aso-karate-2.git
+   cd aso-karate-2
    ```
 
+2. **Instalar dependencias**
    ```bash
-   yarn create next-app --example with-supabase with-supabase-app
+   npm install
+   # o
+   yarn install
+   # o
+   pnpm install
    ```
 
-   ```bash
-   pnpm create next-app --example with-supabase with-supabase-app
-   ```
 
-3. Use `cd` to change into the app's directory
 
-   ```bash
-   cd with-supabase-app
-   ```
+3. **Configurar base de datos**
+   
+   Ejecuta las migraciones de Supabase para crear las tablas necesarias.
 
-4. Rename `.env.example` to `.env.local` and update the following:
-
-  ```env
-  NEXT_PUBLIC_SUPABASE_URL=[INSERT SUPABASE PROJECT URL]
-  NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY=[INSERT SUPABASE PROJECT API PUBLISHABLE OR ANON KEY]
-  ```
-  > [!NOTE]
-  > This example uses `NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY`, which refers to Supabase's new **publishable** key format.
-  > Both legacy **anon** keys and new **publishable** keys can be used with this variable name during the transition period. Supabase's dashboard may show `NEXT_PUBLIC_SUPABASE_ANON_KEY`; its value can be used in this example.
-  > See the [full announcement](https://github.com/orgs/supabase/discussions/29260) for more information.
-
-  Both `NEXT_PUBLIC_SUPABASE_URL` and `NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY` can be found in [your Supabase project's API settings](https://supabase.com/dashboard/project/_?showConnect=true)
-
-5. You can now run the Next.js local development server:
-
+4. **Ejecutar en desarrollo**
    ```bash
    npm run dev
    ```
+   
+   La aplicación estará disponible en [http://localhost:3000](http://localhost:3000)
 
-   The starter kit should now be running on [localhost:3000](http://localhost:3000/).
+### Configuración de Supabase
 
-6. This template comes with the default shadcn/ui style initialized. If you instead want other ui.shadcn styles, delete `components.json` and [re-install shadcn/ui](https://ui.shadcn.com/docs/installation/next)
+1. Crea un nuevo proyecto en [Supabase](https://database.new)
+2. Configura las políticas de seguridad (RLS)
+3. Crea las tablas necesarias usando las migraciones incluidas
+4. Configura la autenticación por email
 
-> Check out [the docs for Local Development](https://supabase.com/docs/guides/getting-started/local-development) to also run Supabase locally.
+## Equipo de Desarrollo
 
-## Feedback and issues
+**Equipo Dinamita** - Desarrollo de Aplicaciones 2
 
-Please file feedback and issues over on the [Supabase GitHub org](https://github.com/supabase/supabase/issues/new/choose).
+Este proyecto fue desarrollado como parte del Sub-Proyecto de Desarrollo de Aplicaciones 2, enfocándose en crear una solución integral para la gestión de asociaciones deportivas de karate.
 
-## More Supabase examples
+### Objetivos del Proyecto
 
-- [Next.js Subscription Payments Starter](https://github.com/vercel/nextjs-subscription-payments)
-- [Cookie-based Auth and the Next.js 13 App Router (free course)](https://youtube.com/playlist?list=PL5S4mPUpp4OtMhpnp93EFSo42iQ40XjbF)
-- [Supabase Auth and the Next.js App Router](https://github.com/supabase/supabase/tree/master/examples/auth/nextjs)
+- Digitalizar la gestión de competencias de karate
+- Automatizar procesos administrativos
+- Mejorar la experiencia de usuarios y administradores
+- Implementar un sistema escalable y mantenible
+- Aplicar mejores prácticas de desarrollo web moderno
+
+## Contribución
+
+Este es un proyecto académico desarrollado por el Equipo Dinamita.
+
+## Licencia
+
+Este proyecto es desarrollado con fines académicos para el curso de Desarrollo de Aplicaciones 2.
+
+---
+
+**Desarrollado con ❤️ por el Equipo Dinamita**

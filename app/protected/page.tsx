@@ -1,8 +1,5 @@
 import { redirect } from "next/navigation";
-
 import { createClient } from "@/lib/supabase/server";
-import { InfoIcon } from "lucide-react";
-import { FetchDataSteps } from "@/components/tutorial/fetch-data-steps";
 
 export default async function ProtectedPage() {
   const supabase = await createClient();
@@ -13,23 +10,20 @@ export default async function ProtectedPage() {
   }
 
   return (
-    <div className="flex-1 w-full flex flex-col gap-12">
-      <div className="w-full">
-        <div className="bg-accent text-sm p-3 px-5 rounded-md text-foreground flex gap-3 items-center">
-          <InfoIcon size="16" strokeWidth={2} />
-          This is a protected page that you can only see as an authenticated
-          user
+    <div className="min-h-screen flex flex-col items-center justify-center">
+      <div className="text-center space-y-6">
+        <h1 className="text-6xl font-bold text-gray-300">🔒</h1>
+        <h2 className="text-3xl font-bold text-gray-700">Área Protegida en Construcción</h2>
+        <p className="text-lg text-gray-500 max-w-md">
+          Esta sección está siendo desarrollada especialmente para usuarios autenticados.
+          ¡Pronto estará disponible!
+        </p>
+        <div className="bg-green-100 text-green-800 px-4 py-2 rounded-lg">
+          ✓ Usuario autenticado correctamente
         </div>
-      </div>
-      <div className="flex flex-col gap-2 items-start">
-        <h2 className="font-bold text-2xl mb-4">Your user details</h2>
-        <pre className="text-xs font-mono p-3 rounded border max-h-32 overflow-auto">
-          {JSON.stringify(data.claims, null, 2)}
-        </pre>
-      </div>
-      <div>
-        <h2 className="font-bold text-2xl mb-4">Next steps</h2>
-        <FetchDataSteps />
+        <div className="animate-pulse">
+          <div className="h-2 bg-gray-200 rounded-full w-64 mx-auto"></div>
+        </div>
       </div>
     </div>
   );
