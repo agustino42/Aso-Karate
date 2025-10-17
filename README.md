@@ -328,5 +328,6 @@ Este es un proyecto académico desarrollado por el Equipo Dinamita.
 Este proyecto es desarrollado con fines académicos para el curso de Desarrollo de Aplicaciones 2.
 
 ---
+![Imagen de WhatsApp 2025-10-17 a las 15 08 48_db5db2a6](https://github.com/user-attachments/assets/925ecca3-1f73-4f4d-ad68-a9ad21c0de94)
 
 **Desarrollado con ❤️ por el Equipo Dinamita**
