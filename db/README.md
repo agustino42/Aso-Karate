@@ -1696,7 +1696,7 @@ END;
 $$ LANGUAGE plpgsql;
 ```
 
-### **Vista Completa de Competencias (Como tu proyecto)**
+### **Vista Completa de Competencias **
 ```sql
 CREATE VIEW vista_competencias_completa AS
 SELECT 
