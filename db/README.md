@@ -146,7 +146,7 @@ Utiliza PostgreSQL a través de Supabase con Row Level Security (RLS) para garan
 
 ## 💡 Mejoras Basadas en Proyecto Anterior
 
-### **Separación de Autenticación (Inspirado en tu proyecto)**
+### **Separación de Autenticación **
 
 #### `autenticacion_usuarios`
 ```sql
@@ -170,7 +170,7 @@ CREATE TABLE autenticacion_usuarios (
 );
 ```
 
-### **Sistema de Competencias Mejorado (Como tu proyecto)**
+### **Sistema de Competencias Mejorado **
 
 #### `competencias_modalidades`
 ```sql
@@ -219,7 +219,7 @@ CREATE TABLE participaciones (
 );
 ```
 
-### **Sistema de Grupos/Llaves (Como tu proyecto)**
+### **Sistema de Grupos/Llaves **
 
 #### `grupos_competencia`
 ```sql
@@ -257,7 +257,7 @@ CREATE TABLE grupos_participantes (
 );
 ```
 
-### **Sistema de Resultados Mejorado (Inspirado en tu proyecto)**
+### **Sistema de Resultados Mejorado **
 
 #### `enfrentamientos_detallados`
 ```sql
