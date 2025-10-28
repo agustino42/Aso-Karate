@@ -87,16 +87,7 @@ Dashboard principal con métricas clave, resumen de actividades recientes y acce
 │   ├── Notificaciones importantes
 │   └── Accesos rápidos
 │
-├── 👥 GESTIÓN DE PERSONAS
-│   │
-│   ├── 🥋 JUGADORES/ATLETAS
-│   │   ├── Registro completo (datos personales, contacto)
-│   │   ├── Historial de competencias
-│   │   ├── Seguimiento de cinturones/grados
-│   │   ├── Estadísticas individuales
-│   │   ├── Documentos y certificaciones
-│   │   ├── Asignación automática de categorías
-│   │   └── Perfil de rendimiento
+├──
 │   │
 │   ├── 👨‍🏫 ENTRENADORES
 │   │   ├── Perfil profesional
@@ -148,13 +139,7 @@ Dashboard principal con métricas clave, resumen de actividades recientes y acce
 │   ├── Exportación de datos
 │   └── Métricas de crecimiento
 │
-├── 🔐 GESTIÓN DE USUARIOS
-│   ├── Roles y permisos
-│   ├── Perfiles personalizables
-│   ├── Control de acceso
-│   ├── Historial de actividades
-│   └── Configuración de seguridad
-│
+├──
 └── ⚙️ ADMINISTRACIÓN
     ├── Configuración del sistema
     ├── Gestión de eventos
